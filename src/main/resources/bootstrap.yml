@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-cloud-client
+  profiles:
+    active: 'jacksparrow'
+  cloud:
+    config:
+      uri: http://localhost:8889
+      label: 'spring-cloud-service'
+      fail-fast: true
